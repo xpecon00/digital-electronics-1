@@ -38,7 +38,7 @@
 
 2. Equations of simplified SoP (Sum of the Products) form of the "greater than" function and simplified PoS (Product of the Sums) form of the "less than" function.
 
-   <img src="https://github.com/xpecon00/digital-electronics-1/blob/main/labs/02-logic/images/eq.png" width="900" height="150">
+   <img src="https://github.com/xpecon00/digital-electronics-1/blob/main/labs/02-logic/images/eq.png" width="900" height="190">
 
 
 ### 4-bit comparator
@@ -72,7 +72,7 @@
 
 2. Text console screenshot during your simulation, including reports.
 
-   <img src="https://github.com/xpecon00/digital-electronics-1/blob/main/labs/02-logic/images/console.PNG" width="1000" height="300">
+   <img src="https://github.com/xpecon00/digital-electronics-1/blob/main/labs/02-logic/images/console.PNG" width="1100" height="300">
 
 3. Link to your public EDA Playground example:
 
