@@ -73,7 +73,7 @@
                 (s_B_equals_A  = '0') and
                 (s_B_less_A    = '1'))
         -- If false, then report an error
-        report "Input combination 1001, 1000 FAILED" severity error;
+        report "Input combination 0101, 1101 FAILED" severity error;
         
         -- Third test case
         s_b <= "1101"; 
@@ -84,7 +84,7 @@
                 (s_B_equals_A  = '0') and
                 (s_B_less_A    = '0'))
         -- If false, then report an error
-        report "Input combination 1001, 1000 FAILED" severity error;
+        report "Input combination 1101, 1001 FAILED" severity error;
         
         -- Fourth test case
         s_b <= "1001"; 
@@ -95,7 +95,7 @@
                 (s_B_equals_A  = '0') and
                 (s_B_less_A    = '1'))
         -- If false, then report an error
-        report "Input combination 1001, 1000 FAILED" severity error;
+        report "Input combination 1001, 1101 FAILED" severity error;
         -- Report a note at the end of stimulus process
         
         
