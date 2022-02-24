@@ -63,8 +63,42 @@
                 (s_B_less_A    = '0'))
         -- If false, then report an error
         report "Input combination 1001, 1000 FAILED" severity error;
-
+        
+        -- Second test case
+        s_b <= "0101"; 
+        s_a <= "1101";  
+        wait for 100 ns;
+        -- Expected output
+        assert ((s_B_greater_A = '0') and
+                (s_B_equals_A  = '0') and
+                (s_B_less_A    = '1'))
+        -- If false, then report an error
+        report "Input combination 1001, 1000 FAILED" severity error;
+        
+        -- Third test case
+        s_b <= "1101"; 
+        s_a <= "1001";  
+        wait for 100 ns;
+        -- Expected output
+        assert ((s_B_greater_A = '1') and
+                (s_B_equals_A  = '0') and
+                (s_B_less_A    = '0'))
+        -- If false, then report an error
+        report "Input combination 1001, 1000 FAILED" severity error;
+        
+        -- Fourth test case
+        s_b <= "1001"; 
+        s_a <= "1101";  
+        wait for 100 ns;
+        -- Expected output
+        assert ((s_B_greater_A = '0') and
+                (s_B_equals_A  = '0') and
+                (s_B_less_A    = '1'))
+        -- If false, then report an error
+        report "Input combination 1001, 1000 FAILED" severity error;
         -- Report a note at the end of stimulus process
+        
+        
         report "Stimulus process finished" severity note;
         wait;
     end process p_stimulus;
