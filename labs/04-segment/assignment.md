@@ -1,7 +1,14 @@
 # Lab 3: David Pěčonka
 
 ## 1. Preparation
+### The connection of 7-segment displays
+![](https://github.com/xpecon00/digital-electronics-1/blob/main/labs/04-segment/images/7seg2.PNG)
+![](https://github.com/xpecon00/digital-electronics-1/blob/main/labs/04-segment/images/7seg.PNG) 
 
+
+
+
+### The decoder truth table for **common anode** 7-segment display.
  | **Hex** | **Inputs** | **A** | **B** | **C** | **D** | **E** | **F** | **G** |
    | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
    | 0 | 0000 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
