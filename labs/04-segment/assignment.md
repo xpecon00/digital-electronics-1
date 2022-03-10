@@ -43,14 +43,88 @@
         s_hex <= "0000"; wait for 50 ns;
         assert (s_seg = "0000001")
         report "Input combination 0000 FAILED" severity error;
+        
+        -- Second test case
+        s_hex <= "0001"; wait for 50 ns;
+        assert (s_seg = "100111")
+        report "Input combination 0000 FAILED" severity error;
+        
+        -- Third test case
+        s_hex <= "0010"; wait for 50 ns;
+        assert (s_seg = "0010010")
+        report "Input combination 0000 FAILED" severity error;
+        
+        -- Fourth test case
+        s_hex <= "0011"; wait for 50 ns;
+        assert (s_seg = "0000110")
+        report "Input combination 0000 FAILED" severity error;
+        
+        -- Fifth test case
+        s_hex <= "0100"; wait for 50 ns;
+        assert (s_seg = "1001100")
+        report "Input combination 0000 FAILED" severity error;
 
+        -- Sixth test case
+        s_hex <= "0101"; wait for 50 ns;
+        assert (s_seg = "0100100")
+        report "Input combination 0000 FAILED" severity error;
+        
+        -- Seventh test case
+        s_hex <= "0110"; wait for 50 ns;
+        assert (s_seg = "0100000")
+        report "Input combination 0000 FAILED" severity error;
+        
+        -- Eigth test case
+        s_hex <= "0111"; wait for 50 ns;
+        assert (s_seg = "0001111")
+        report "Input combination 0000 FAILED" severity error;
+        
+        -- Ninth test case
+        s_hex <= "1000"; wait for 50 ns;
+        assert (s_seg = "0000000")
+        report "Input combination 0000 FAILED" severity error;
+        
+        -- Tenth test case
+        s_hex <= "1001"; wait for 50 ns;
+        assert (s_seg = "0000100")
+        report "Input combination 0000 FAILED" severity error;
 
-        -- WRITE OTHER TEST CASES HERE
+        -- Eleventh test case
+        s_hex <= "1010"; wait for 50 ns;
+        assert (s_seg = "0001001")
+        report "Input combination 0000 FAILED" severity error;
+        
+        -- Twelfth test case
+        s_hex <= "1011"; wait for 50 ns;
+        assert (s_seg = "1100000")
+        report "Input combination 0000 FAILED" severity error;
 
+        -- Thirteenth test case
+        s_hex <= "1100"; wait for 50 ns;
+        assert (s_seg = "0110001")
+        report "Input combination 0000 FAILED" severity error;
+        
+        -- Fourteenth test case
+        s_hex <= "1101"; wait for 50 ns;
+        assert (s_seg = "1000010")
+        report "Input combination 0000 FAILED" severity error;
+        
+        -- Fiveteenth test case
+        s_hex <= "1110"; wait for 50 ns;
+        assert (s_seg = "0110000")
+        report "Input combination 0000 FAILED" severity error;
+        
+        -- Sixteenth test case
+        s_hex <= "1111"; wait for 50 ns;
+        assert (s_seg = "0111000")
+        report "Input combination 0000 FAILED" severity error;
 
         report "Stimulus process finished" severity note;
         wait;
     end process p_stimulus;
+
+end architecture testbench;
+
 ```
 
 2. Screenshot with simulated time waveforms. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
