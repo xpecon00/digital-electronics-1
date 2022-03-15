@@ -1,0 +1,2 @@
+Breakpoint File Version 1.0
+97 true D:/Documents/xpecon00/comparator/comparator.srcs/sim_1/new/tb_comparator_4bit.vhd
