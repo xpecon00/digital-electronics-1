@@ -62,7 +62,14 @@ The Nexys A7 board provides five push buttons for user applications.
 
 2. Screenshot with simulated time waveforms. Test reset as well. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   ![your figure]()
+   a) Reset
+   ![Reset](https://github.com/xpecon00/digital-electronics-1/blob/main/labs/06-counter/images/reset.PNG)
+   
+   b) Counting direction changed
+   ![Counting direction changed](https://github.com/xpecon00/digital-electronics-1/blob/main/labs/06-counter/images/countingdirection.PNG)
+   
+   c) Counting enabled/disabled
+   ![Counting enabled/disabled](https://github.com/xpecon00/digital-electronics-1/blob/main/labs/06-counter/images/countingdisabled.PNG)
 
 ### Two counters
 
