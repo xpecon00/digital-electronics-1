@@ -102,4 +102,6 @@
 
 3. Screenshot with simulated time waveforms. The full functionality of the entity must be verified. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   ![your figure]()
+   ![your figure](https://github.com/xpecon00/digital-electronics-1/blob/main/labs/08-traffic_lights/images/1.PNG)
+   ![your figure](https://github.com/xpecon00/digital-electronics-1/blob/main/labs/08-traffic_lights/images/2.PNG)
+   ![your figure](https://github.com/xpecon00/digital-electronics-1/blob/main/labs/08-traffic_lights/images/imageofcounterfunction.PNG)
